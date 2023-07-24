@@ -25,4 +25,4 @@ Easy configuration of the cameras of the clothing stores, it will only be necess
 - Copy the script into a folder (to choose) from the 'resources' folder.
 - Add 'ensure xakra_clothingstores' in the 'Resources.cfg' document
 
-Video: https://youtu.be/kTfmqTP0YKo
+Video: https://youtu.be/zr4jKAocHts
