@@ -665,7 +665,7 @@ function MakeupMenu()
                 --*Variant
                 Elements[#Elements + 1] = {
                     label = overlayLookup[i].label..' '.._U('Variant'),
-                    value = data_store.BuySkin[overlayLookup[i].variant],
+                    value = data_store.BuySkin[overlayLookup[i].variant] or 0,
                     min = 0,
                     max = overlayLookup[i].varvalue,
                     type = 'slider',
@@ -686,7 +686,7 @@ function MakeupMenu()
             --* opacity
             Elements[#Elements + 1] = {
                 label = overlayLookup[i].label..' '.._U('Opacity'),
-                value = data_store.BuySkin[overlayLookup[i].opacity],
+                value = data_store.BuySkin[overlayLookup[i].opacity] or 0,
                 min = 0,
                 max = 0.9,
                 hop = 0.1,
