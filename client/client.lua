@@ -54,7 +54,7 @@ Citizen.CreateThread(function()
         local t = 500
         if not data_store then 
             for i, v in pairs(Config.ClothingStores) do
-                if GetDistanceBetweenCoords(pcoords, v.NPC.Coords.x, v.NPC.Coords.y, v.NPC.Coords.z, false) < 2 then
+                if GetDistanceBetweenCoords(pcoords, v.NPC.Coords.x, v.NPC.Coords.y, v.NPC.Coords.z, true) < 2 then
                     t = 4
 
                     local label  = CreateVarString(10, 'LITERAL_STRING', v.Name)
@@ -75,7 +75,7 @@ Citizen.CreateThread(function()
                         TaskGoToCoordAnyMeans(PlayerPedId(), v.Coords.Room.x, v.Coords.Room.y, v.Coords.Room.z, 1.0, 0, false, 0, 0.0)
 
                         while true do
-                            if GetDistanceBetweenCoords(pcoords, v.Coords.Room.x, v.Coords.Room.y, v.Coords.Room.z, false) < 3 then
+                            if GetDistanceBetweenCoords(pcoords, v.Coords.Room.x, v.Coords.Room.y, v.Coords.Room.z, true) < 3 then
                                 break
                             end
 
