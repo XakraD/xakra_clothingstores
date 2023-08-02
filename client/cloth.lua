@@ -43823,7 +43823,7 @@ Clothes = {
                 },
             },
         },
-        gunbelt_accs = {
+        GunbeltAccs = {
             [1] = {
                 [1] = {
                     hashname = "CLOTHING_ITEM_F_GUNBELT_ACCS_001_TINT_001",
