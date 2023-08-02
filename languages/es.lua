@@ -58,6 +58,7 @@ Locales['es'] = {
     RingLh = 'Anillos izquierda',
     Badge = 'Insignia',
     Armor = 'Armadura',
+    HairAccesories = 'Accesorios de pelo',
 
 --########################## MAKEUP ##########################
     Eyeliners = 'Delineador de ojos',

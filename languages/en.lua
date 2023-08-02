@@ -58,6 +58,7 @@ Locales['en'] = {
     RingLh = 'Left hand rings',
     Badge = 'Badge',
     Armor = 'Armor',
+    HairAccesories = 'Hair accesories',
 
 --########################## MAKEUP ##########################
     Eyeliners = 'Eyeliners',

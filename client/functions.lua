@@ -38,13 +38,11 @@ end
 
 function ApplyShopItemToPed(comp, category)
     RemoveTagFromMetaPed(category)
-    Citizen.InvokeNative(0xD3A7B003ED343FD9, PlayerPedId(), comp, true, true, true)
+    Citizen.InvokeNative(0xD3A7B003ED343FD9, PlayerPedId(), comp, false, false, false)
+    Citizen.InvokeNative(0xD3A7B003ED343FD9, PlayerPedId(), comp, false, true, false)
+    Citizen.InvokeNative(0x66b957aac2eaaeab, PlayerPedId(), comp, 0, 0, 1, 1) -- _UPDATE_SHOP_ITEM_WEARABLE_STATE
+    Citizen.InvokeNative(0xAAB86462966168CE, PlayerPedId(), 1)        --_CLEAR
     UpdateVariation(PlayerPedId())
-    -- PlayerClothing[category] = comp.hex
-    -- if category == "Pant" then -- reaply boots so they don clip out when choosing pants
-    --     Citizen.InvokeNative(0xD3A7B003ED343FD9, PlayerPedId(), PlayerClothing.Boots, true, true, true)
-    --     UpdateVariation(PlayerPedId())
-    -- end
 end
 
 function UpdateVariation(ped)

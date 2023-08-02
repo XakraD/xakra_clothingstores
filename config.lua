@@ -193,6 +193,7 @@ Config.Prices = {
     RingLh = 7,
     Badge = 5,
     Armor = 30,
+    HairAccesories = 12,
 
     -- MAKEUP
     texture = 1,

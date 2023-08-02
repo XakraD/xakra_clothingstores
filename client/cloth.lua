@@ -33,6 +33,7 @@ ClothingCategories = {
     Dress       = 0xA2926F9B,
     Badge       = 0x3F7F3587,
     Armor       = 0x72E6EF74,
+    HairAccesories = 0x8E84A2AA,
 }
 
 Clothes = {
@@ -50054,6 +50055,134 @@ Clothes = {
                 [1] = {
                     hashname = "",
                     hash = -1143519094,
+                },
+            },
+        },
+        HairAccesories = {
+            [1] = {
+                [1] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_001_TINT_001", 
+                    hash = -1517020313,
+                },
+                [2] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_001_TINT_002", 
+                    hash = -1210204166,
+                },
+                [3] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_001_TINT_003", 
+                    hash = -917249306,
+                },
+                [4] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_001_TINT_004", 
+                    hash = 829043461,
+                },
+                [5] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_001_TINT_005", 
+                    hash = 1130419954,
+                },
+                [6] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_001_TINT_006", 
+                    hash = 1428617854,
+                },
+                [7] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_001_TINT_007", 
+                    hash = 1691654621,
+                },
+                [8] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_001_TINT_008", 
+                    hash = -387931661,
+                },
+                [9] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_001_TINT_009", 
+                    hash = -91667132,
+                },
+                [10] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_001_TINT_010", 
+                    hash = 2126205186,
+                },
+            },
+            [2] = {
+                [1] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_002_TINT_001", 
+                    hash = 654707516,
+                },
+                [2] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_002_TINT_002", 
+                    hash = 1459874615,
+                },
+                [3] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_002_TINT_003", 
+                    hash = 1154336459,
+                },
+                [4] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_002_TINT_004", 
+                    hash = 1922474588,
+                },
+                [5] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_002_TINT_005", 
+                    hash = 1850317250,
+                },
+                [6] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_002_TINT_006", 
+                    hash = 2113091849,
+                },
+                [7] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_002_TINT_007", 
+                    hash = 1816729013,
+                },
+                [8] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_002_TINT_008", 
+                    hash = -1719144398,
+                },
+                [9] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_002_TINT_009", 
+                    hash = -1212732272,
+                },
+                [10] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_002_TINT_010", 
+                    hash = 1418487632,
+                },
+            },
+            [3] = {
+                [1] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_003_TINT_001", 
+                    hash = -287103568,
+                },
+                [2] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_003_TINT_002", 
+                    hash = 938522614,
+                },
+                [3] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_003_TINT_003", 
+                    hash = 1243012162,
+                },
+                [4] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_003_TINT_004", 
+                    hash = -1802473160,
+                },
+                [5] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_003_TINT_005", 
+                    hash = 650384797,
+                },
+                [6] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_003_TINT_006", 
+                    hash = 1896131105,
+                },
+                [7] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_003_TINT_007", 
+                    hash = -2090971436,
+                },
+                [8] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_003_TINT_008", 
+                    hash = -909517910,
+                },
+                [9] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_003_TINT_009", 
+                    hash = -612860153,
+                },
+                [10] = {
+                    hashname = "CLOTHING_ITEM_F_HAIR_ACCS_003_TINT_010", 
+                    hash = 1332733944,
                 },
             },
         },
