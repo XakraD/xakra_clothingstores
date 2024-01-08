@@ -25,6 +25,7 @@ Config.ClothingStores = {
         Coords = { 
             Room = vector4(-768.02, -1294.97, 42.88, 271.42), -- vector4 (character coordinates in shop preview)
             Cam = vector4(-766.43, -1295.24, 43.9, 85.66),  -- vector4 (camera coordinates)
+            OutRoom = vector3(-761.83, -1291.82, 43.9), -- vector3 (Teleport coordinates when leaving the clothing store) or false
         },
     },
     {
@@ -41,6 +42,7 @@ Config.ClothingStores = {
         Coords = { 
             Room = vector4(-329.78, 775.2, 120.68, 269.78), -- vector4 (character coordinates in shop preview)
             Cam = vector4(-326.18, 775.33, 121.69, 96.59),  -- vector4 (camera coordinates)
+            -- OutRoom = vector3(-325.9, 774.47, 117.51), -- vector3 (Teleport coordinates when leaving the clothing store) or false
         },
     },
     {
@@ -57,6 +59,7 @@ Config.ClothingStores = {
         Coords = { 
             Room = vector4(1324.5, -1287.62, 76.07, 157.93), -- vector4 (character coordinates in shop preview)
             Cam = vector4(1322.82, -1289.73, 77.08, 325.64),  -- vector4 (camera coordinates)
+            -- OutRoom = vector3(1326.54, -1290.04, 77.07), -- vector3 (Teleport coordinates when leaving the clothing store) or false
         },
     },
     {
@@ -73,6 +76,7 @@ Config.ClothingStores = {
         Coords = { 
             Room = vector4(2555.76, -1161.43, 52.75, 345.15), -- vector4 (character coordinates in shop preview)
             Cam = vector4(2557.34, -1159.28, 53.75, 145.88),  -- vector4 (camera coordinates)
+            -- OutRoom = vector3(2554.88, -1168.69, 53.73), -- vector3 (Teleport coordinates when leaving the clothing store) or false
         },
     },
     {
@@ -89,6 +93,7 @@ Config.ClothingStores = {
         Coords = { 
             Room = vector4(2946.41, 542.77, 48.5, 253.2), -- vector4 (character coordinates in shop preview)
             Cam = vector4(2948.61, 542.45, 49.49, 85.0),  -- vector4 (camera coordinates)
+            -- OutRoom = vector3(2943.2, 541.14, 49.55), -- vector3 (Teleport coordinates when leaving the clothing store) or false
         },
     },
     {
@@ -105,6 +110,7 @@ Config.ClothingStores = {
         Coords = { 
             Room = vector4(2945.36, 1331.26, 43.51, 223.86), -- vector4 (character coordinates in shop preview)
             Cam = vector4(2947.0, 1329.17, 44.5, 41.0),  -- vector4 (camera coordinates)
+            OutRoom = vector3(2943.87, 1337.03, 44.17), -- vector3 (Teleport coordinates when leaving the clothing store) or false
         },
     },
     {
@@ -121,6 +127,7 @@ Config.ClothingStores = {
         Coords = { 
             Room = vector4(-1794.66, -395.55, 159.39, 319.51), -- vector4 (character coordinates in shop preview)
             Cam = vector4(-1793.16, -394.02, 160.39, 141.86),  -- vector4 (camera coordinates)
+            OutRoom = vector3(-1787.96, -393.79, 160.28), -- vector3 (Teleport coordinates when leaving the clothing store) or false
         },
     },
     {
@@ -137,6 +144,7 @@ Config.ClothingStores = {
         Coords = { 
             Room = vector4(-3688.53, -2630.52, -14.35, 31.94), -- vector4 (character coordinates in shop preview)
             Cam = vector4(-3689.33, -2628.54, -13.35, 210.42),  -- vector4 (camera coordinates)
+            OutRoom = vector3(-3684.95, -2627.65, -13.38), -- vector3 (Teleport coordinates when leaving the clothing store) or false
         },
     },
     {
@@ -153,6 +161,7 @@ Config.ClothingStores = {
         Coords = { 
             Room = vector4(-5513.68, -2973.43, 1.27, 16.81), -- vector4 (character coordinates in shop preview)
             Cam = vector4(-5514.36, -2971.1, 2.27, 202.38),  -- vector4 (camera coordinates)
+            OutRoom = vector3(-5519.91, -2976.87, -0.72), -- vector3 (Teleport coordinates when leaving the clothing store) or false
         },
     },
 }

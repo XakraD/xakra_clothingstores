@@ -270,7 +270,12 @@ function ClothingStoreMenu()
         end, function(data,menu)
             menu.close()
             DoScreenFadeOut(1500)
-            Wait(1500)
+            Wait(2000)
+            if data_store.Coords.OutRoom then
+                local HasZ, z = GetGroundZAndNormalFor_3dCoord(data_store.Coords.OutRoom.x, data_store.Coords.OutRoom.y, data_store.Coords.OutRoom.z + 0.5)
+                SetEntityCoords(PlayerPedId(), data_store.Coords.OutRoom.x, data_store.Coords.OutRoom.y, z)
+            end
+            Wait(500)
             CloseClothingStore()
         end
     )
