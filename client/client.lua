@@ -913,7 +913,11 @@ AddEventHandler('onResourceStop', function (resourceName)
         return
     end
 
-    DestroyAllCams(true)
+    if data_store then
+        VORPMenu.CloseAll()
+        CloseClothingStore()
+    end
+
     for i, v in pairs(Config.ClothingStores) do
         if DoesBlipExist(v.BlipHandle) then
             RemoveBlip(v.BlipHandle)
@@ -922,7 +926,4 @@ AddEventHandler('onResourceStop', function (resourceName)
             DeletePed(v.NPChandle)
         end
     end
-
-    VORPMenu.CloseAll()
-    CloseClothingStore()
 end)
